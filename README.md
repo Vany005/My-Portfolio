@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal de desenvolvedora fullstack, com cara de diário de scrapbook: papel kraft, fita adesiva, polaroids que "revelam" a foto, carimbos e anotações à mão.
 
-🔗 **[Ver o site no ar](LINK_DO_SITE)**
+🔗 **[Ver o site no ar](https://vania-melo.vercel.app)**
 
 ![Prévia do portfólio](docs/preview.png)
 
