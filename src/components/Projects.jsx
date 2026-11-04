@@ -2,7 +2,7 @@ import { projects } from '../data'
 
 const paperClass = { aged: 'aged', grid: 'grid-paper', lined: 'lined' }
 const shotPaper = { aged: 'grid-paper', grid: 'news', lined: 'aged' }
-// rotação, deslocamento e fita de cada cartão, como no esboço
+
 const layout = [
   { rot: -1.5, top: 0, tape: { left: 24, transform: 'rotate(-8deg)' }, check: false },
   { rot: 1.2, top: 36, tape: { right: 24, transform: 'rotate(7deg)' }, check: true },

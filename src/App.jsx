@@ -10,7 +10,7 @@ import { profile, year } from './data'
 export default function App() {
   return (
     <div className="page kraft">
-      {/* luz de fim de tarde + granulado de filme; apague estas duas linhas pra desligar */}
+      
       <div className="golden-hour" aria-hidden="true" />
       <div className="grain" aria-hidden="true" />
       <div className="container">

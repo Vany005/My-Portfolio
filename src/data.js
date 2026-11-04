@@ -1,9 +1,8 @@
-// Todo o conteúdo do site fica aqui. Troque os textos entre [colchetes]
-// e os links '#' pelos seus dados reais.
+
 
 import fotoVania from './assets/foto-vania.webp'
 
-// prints dos projetos (importados pra o Vite conferir se existem e versionar no build)
+
 import dashboardImg from './assets/projetos/dashboard-blue-moon.webp'
 import sstImg from './assets/projetos/sst-educacional.webp'
 import portfolioImg from './assets/projetos/portfolio-terceiros.webp'
@@ -15,9 +14,9 @@ export const profile = {
   role: 'desenvolvedora fullstack',
   tagline:
     'No dia a dia, desenvolvo aplicações web completas e compartilho a rotina de código, aprendizados e projetos nas redes sociais.',
-  photo: fotoVania, // importada lá em cima, de src/assets/
+  photo: fotoVania,
   photoCaption: 'System.out.println("hello!");',
-  resume: null, // ex.: '/curriculo.pdf' (coloque o arquivo na pasta public/)
+  resume: '/curriculo-vania-melo.pdf', 
   email: 'vaniabeatriz999@gmail.com',
   location: 'São Paulo · presencial, híbrido ou remoto',
   links: {
@@ -41,9 +40,7 @@ export const now = [
   ['ouvindo', 'We Have to Move On Inhaler', 'https://open.spotify.com/track/7LZlKjgyS1IG6BniUx9MOX'],
 ]
 
-// paper: aged | grid | lined   ·   tagStyle: outline-blue | solid | outline
-// image: print importado lá em cima · imageAlt: o que aparece no print (lido por leitores de tela)
-// doodle: rabisco à mão acima do cartão (some no celular). side: left | right
+
 export const projects = [
   {
     title: 'Dashboard Operacional & KPIs Logísticos',
